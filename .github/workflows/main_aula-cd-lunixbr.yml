@@ -33,7 +33,7 @@ jobs:
         name: node-app
         path: .
 
-  deploy:
+  deploy-hom:
     runs-on: ubuntu-latest
     needs: build
     environment:
